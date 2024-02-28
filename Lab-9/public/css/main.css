@@ -1,0 +1,86 @@
+body {
+    background-color: #000000;
+    font-family: serif;
+    margin-left: 50px;
+}
+
+h1 {
+    color: #d0ace0;
+    font-size: 40px;
+    font-style: bold;
+    text-align: center;
+}
+
+h4 {
+    color: #d0ace0;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+}
+
+button {
+    background-color: #8acac0;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 4px 7px;
+    text-align: center;
+    display: inline-block;
+}
+
+p {
+    color: #6c78b3;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+label {
+    color: #8acac0;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-left: 10px;
+}
+
+.error {
+    color: #ff0000;
+}
+
+
+.is-green {
+    color: #00E676;
+    font-size: 20px;
+}
+
+.is-red {
+    color: #FF3D00;
+    font-size: 20px;
+}
+
+.form {
+    align-self: auto;
+}  
+
+form {
+    text-align: center;
+}
+
+div{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #d0ace0;
+    color: #000000;
+}

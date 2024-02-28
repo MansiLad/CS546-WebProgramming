@@ -1,0 +1,19 @@
+<title>Login</title>
+<h1>{{title}}</h1>
+<main>
+    <form method="POST" action="/login" id="login-form">
+    <br>
+        <label for="username" id="usernameInputLabel"> Username: </label>
+        <input type="text" id="usernameInput" name="usernameInput">
+    <br>
+        <label for="password" id="passwordInputLabel"> Password: </label>
+        <input type="password" id="passwordInput" name="passwordInput" type="password">
+    <br>
+        <p class="error">{{error}}</p>
+    <br>
+        <button type="submit" class="btn btn-default" id="login-button"> Login </button>
+    <br>
+        <a href="/register">Click here to register!</a>
+    <br>
+    </form>
+</main>

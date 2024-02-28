@@ -1,0 +1,76 @@
+/*This file should have CSS rulesets
+
+*/
+body {
+    background-color: #9dd6d5;
+    font-family: serif;
+    margin-left: 50px;
+
+}
+
+h1 {
+    color: #8d35b5;
+    font-size: 40px;
+    font-style: bold;
+    text-align: center;
+}
+
+button {
+    background-color: #d3dcfc;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 4px 7px;
+    text-align: center;
+    display: inline-block;
+}
+
+p {
+    color: #171f45;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+h2 {
+    color: #b21717;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+a {
+    color: #171f45;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+dd {
+    color: #771a5b;
+    font-size: 20px;
+    margin-left: 90px;
+    font-style: bold;
+}
+
+dt {
+    
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+
